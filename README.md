@@ -22,7 +22,7 @@ You have two options to work in this course: with a local installation of the co
 
 You can activate the environment with the following command to use it in your terminal:
 ```bash
-conda activate tso-fs25
+mamba activate tso-fs25
 ```
 You can also use your favorite IDE to work with the environment. We recommend using [Visual Studio Code](https://code.visualstudio.com/) with the Python and Jupyter extensions. There is plenty of documentation on how to set up your environment with these tools and on the internet.
 
@@ -39,5 +39,13 @@ mamba env update -f environment.yml
 
 ### Google Colab
 1. Click on the `Open in Colab` badge at the top of this README.md file.
-2. Follow the instructions in the notebook to clone the repository and set up the environment.
+2. Follow the instructions in the notebook.
 
+If you have specific packages that you need to install, you can do so by running the following command in the notebook:
+```python
+!pip install package_name
+```
+
+However, it can take quite some time to install packages in Google Colab and needs to be repeated every time you restart the runtime. Additionally, the `traffic` package returns an error if installed with the command above.
+
+Some notebooks have a code cell at the beginning that installs the necessary packages. You can run this cell by clicking on the play button in the cell or by pressing `Shift + Enter`.
