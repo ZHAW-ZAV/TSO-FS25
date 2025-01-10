@@ -41,3 +41,11 @@ Once you set up the environment, you can include the code from `use_env.ipynb` i
   - World population by country and year.
   - Source: [World Bank](https://data.worldbank.org/indicator/SP.POP.TOTL), accessed on 9.1.2025.
   - Google Drive file ID: `1eWJVsEqM52xG-pLffdvkEy880oRsaTyz`
+- **plotly_trajs.csv**:
+  - Two trajectories with in-flight emergencies. Extracted from Xavier's example data.
+  - Source: [Traffic](https://traffic-viz.github.io/gallery/squawk7700.html), accessed on 10.1.2025.
+  - Google Drive file ID: `1CRNprh5oSxZntkmEJbCMTN3Htf5cPb4u`
+- **capitals.csv**:
+  - Coordinates of the capitals of the world.
+  - Source: [Kaggle](https://www.kaggle.com/datasets/nikitagrec/world-capitals-gps), accessed on 10.1.2025.
+  - Google Drive file ID: `1U9IbkK9cT94bJlJ1Ie1VLfqWFv5HOZBM`
